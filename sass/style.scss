@@ -1,0 +1,53 @@
+#page {
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  display: block;
+}
+* {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+#head, #directions, #quoteBox{
+  color: #b3b3b3;
+}
+#head {
+  font-size: 100px;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+#directions {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#quoteBox {
+  font-size: 200px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#quoteButton {
+  color: #ff0066;
+  background: rgba(0,0,0,0);
+  border: solid 5px #ff0066;
+  height: 80px;
+  width: 200px;
+  font-size: 25px;
+  transition: border-color 2s, color 1s;
+  margin-bottom: 50px;
+}
+#quoteButton:hover,
+#quoteButton.hover {
+  border-color:   #00ccff;
+  color:   #00ccff;
+}
+#quoteButton:active,
+#quoteButton.active {
+  border-color:  #0066cc;
+  color:  #0066cc;
+}
+#quoteButton:focus {
+  outline: none;
+}
