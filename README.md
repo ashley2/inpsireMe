@@ -1,2 +1,2 @@
-# inpsireMe
+# inspireMe
 inspirational quote generator
